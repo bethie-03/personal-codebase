@@ -1,0 +1,12 @@
+services:
+  label_tool:
+    image: bethie03/label-tool:v1
+    container_name: label-tool
+    ports:
+      - "7860:7860"
+    volumes:
+      - ./image:/app/image              # Create folder to recieve image from gradio
+      - ./reasoning:/app/reasoning      # Create folder to recieve reasoning from gradio
+    environment:
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped
