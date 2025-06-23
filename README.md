@@ -1,11 +1,11 @@
-# README
+# LABEL TOOL TRADING 
 
 ## Các bước triển khai
 
 ### 1. Clone repository
 
 ```
-git clone https://github.com/your-username/personal-codebase.git
+git clone https://github.com/bethie-03/personal-codebase.git
 cd personal-codebase
 ```
 
